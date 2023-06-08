@@ -1,0 +1,6 @@
+CREATE VIEW configuracion_remota AS
+SELECT p.*
+FROM dblink('dbname=comprobantes user=postgres',
+            'SELECT nombre_parametro, valor
+	FROM app.configuracion')
+	AS p(nombre_parametro varchar(128), valor text);
