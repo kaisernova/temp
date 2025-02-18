@@ -1,0 +1,25 @@
+El documento de seguridad indica los parámetros de seguridad que se deben tener en la organización, incluyendo:
+- Niveles de clasificación de información.
+- Responsabilidades de los usuarios/personal
+- Seguridad física por infraestructura
+- Seguridad del personal (incluyendo correcta identificación)
+- Políticas base para claves de usuario y uso de equipos
+- Seguridad de la información, medios de respaldo
+- Definición de Responsables de generar los otros manuales y políticas
+
+Todo lo anterior se ha realizado en base al estandar ISO-27000.
+
+En base a lo anterior se puede empezar a definir aspectos base de la arquitectura del sistema, incluyendo la separación de la parte adnministrativa, reportes y parte transaccional del mismo.
+
+Sin embargo el documento NO cubre la funcionalidad propia del sistema referenciado, ni el manual de usuario. Si no se puede acceder a ellos se debe entonces levantar los requerimientos funcionales del mismo, en los que se debe definir de forma clara y precisa los módulos del mismo incluyendo:
+- Registro de clientes
+- Documentos habilitantes y activación de usuarios/personal
+- Apertura de cuentas/tipos de cuentas
+- Tipos de transacciones, incluyendo depósito, retiro, préstamos.
+- Requerimientos habilitantes para préstamos (incluyendo antiguedad, ahorro mínimo)
+- Tablas de amortización
+- Cobranzas
+- Alertas y notificaciones
+- Lo que la contraparte funcional considere básico para la caja de ahorros (Vanessa)
+
+Esto para definirlo en reunión, por favor para poner una hora específica para realizarlo virtual.
